@@ -22,6 +22,7 @@ import java.util.Date;
 public class CurrentAccountController {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(CurrentAccountController.class);
+
 	@Autowired
 	private CurrentAccountService currentAccountService;
 
