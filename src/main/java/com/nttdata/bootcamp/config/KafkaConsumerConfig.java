@@ -34,6 +34,7 @@ public class KafkaConsumerConfig {
                 props,
                 new StringDeserializer(),
                 jsonDeserializer);
+
     }
 
     @Bean
